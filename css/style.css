@@ -1,0 +1,92 @@
+/************************************************************
+
+Theme name : Error page
+Description:
+Author: Patricia Masioni
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0
+Tags:Error page, personal project.
+
+**************************************************************
+
+Table of Contents:
+
+  0. GLOBAL
+  1. MAIN
+  2. SECTION
+
+
+
+**************************************************************/
+
+
+/************************************************
+0.	GLOBAL
+************************************************/
+
+html {
+  background: rgba(155,249,187,0.3);
+}
+
+body{
+  font-size: 16px;
+  overflow: hidden;
+}
+
+/************************************************
+1.	MAIN
+************************************************/
+
+main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+/************************************************
+  2. SECTION
+************************************************/
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:center;
+}
+
+article{
+
+
+}
+
+h1{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
+  background: linear-gradient(to bottom, rgba(155,249,187,0.06), #9bf9bb);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content:center;
+/*
+  box-shadow: 0.2rem 2.5rem 0rem 0.8rem #000;
+*/
+
+}
+
+h1:hover{
+  background: linear-gradient(to top, rgba(155,249,187,0.01), #9bf9bb);
+  transition: opacity 1s ease-in-out;
+}
+
+p{
+  font-family: "nunito","Futura",serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  text-transform: capitalize;
+  text-align: center;
+}
